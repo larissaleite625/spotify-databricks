@@ -13,15 +13,13 @@ Projeto de engenharia de dados no **Databricks** para coletar, tratar e analisar
 
 ## 📊 Dashboard (PDF)
 
-[![Prévia do Dashboard](dash/spotify-dashboard-thumb.png)](https://github.com/larissaleite625/spotify-databricks/blob/main/Spotify%202025-08-29%2019_50.pdf)
-
-> Clique na imagem para abrir o PDF no visualizador do GitHub.
+[![Prévia do Dashboard](dash/spotify-dashboard-thumb.png)](https://github.com/larissaleite625/spotify-databricks/blob/main/dash/spotify-dashboard-2025-08-29.pdf)
 
 ## 🔎 Visão Geral das camadas
 
 - **Bronze**: ingestão bruta (schema próximo do original)
 - **Silver**: padronização de tipos, normalização e chaves
-- **Gold**: métricas e visões analíticas (ex.: top faixas/artistas, gêneros, tendências)
+- **Gold**: métricas e visões analíticas 
 
 ## 🧠 Enriquecimento de Estilos (LLM · DeepSeek)
 
@@ -31,7 +29,7 @@ Esse notebook adiciona uma etapa de **enriquecimento de estilos musicais** usand
 Ele envia informações das faixas (título, artista, metadados) para o modelo, que retorna rótulos e descrições de estilos, depois gravados como novas colunas no dataset.
 
 ### Destaques
-- Permite capturar nuances de **gênero/“vibe”** que não aparecem diretamente nos dados brutos.
+- Permite capturar nuances de **gênero** que não aparecem diretamente nos dados brutos. Ainda será preciso validar, mas os resultados até o momento são excelentes, principalmente se considerarmos que os subgeneros do Metal são confusos até para os próprios fãs de Heavy Metal.
 - Facilita análises segmentadas e visualizações no **Lakeview**.
 - **Custo extremamente baixo**: até o momento foram **~US$ 0,38** para mais de **1,6 milhão de tokens processados**.
 
@@ -87,9 +85,6 @@ O dashboard Lakeview mostra algumas tendências interessantes nos dados do Spoti
   3.  *Gods of Violence* - Kreator - (27.26h)
   4.  *Totalitarian Terror* - Kreator - (22.48h)
   5.  *One* - Metallica - (21.27h)
-
-- 🧠 **Insights do LLM (DeepSeek):**
-  - O enriquecimento com estilos musicais permitiu identificar de forma mais clara gêneros como *Thrash Metal*, *Heavy Metal* e *Metalcore*.
 ---
 
 ## 🧪 Tecnologias
