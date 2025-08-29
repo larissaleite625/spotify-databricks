@@ -25,7 +25,7 @@
         "FROM\r\n",
         "  gold.spotify.spotify_analise\r\n",
         "WHERE\r\n",
-        "  master_metadata_album_artist_name <> 'null'\r\n",
+        "  master_metadata_album_artist_name not in ('null', 'The Red Army Choir')\r\n",
         "GROUP BY\r\n",
         "  master_metadata_album_artist_name\r\n",
         "ORDER BY\r\n",
@@ -41,7 +41,7 @@
         "  master_metadata_album_artist_name,\r\n",
         "  SUM(minutes_played) / 60 AS total_horas_ouvidas\r\n",
         "FROM gold.spotify.spotify_analise\r\n",
-        "WHERE master_metadata_album_artist_name <> 'null'\r\n",
+        "WHERE master_metadata_album_artist_name not in ('null', 'The Red Army Choir')\r\n",
         "GROUP BY master_metadata_album_artist_name\r\n",
         "ORDER BY total_horas_ouvidas DESC\r\n",
         "LIMIT 20;"

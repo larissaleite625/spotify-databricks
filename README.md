@@ -72,14 +72,14 @@ O dashboard Lakeview mostra algumas tendências interessantes nos dados do Spoti
   - Megadeth (Thrash Metal)  
   - Bullet For My Valentine (Metalcore)  
   - Kreator (Thrash Metal)  
-  - Slayer (Thrash Metal)  
+  - Dream Theater (Progressive Metal) 
 
 - 🎵 **Top artistas por horas:**  
   - Metallica (Thrash Metal)  
   - Megadeth (Thrash Metal)  
   - Bullet For My Valentine (Metalcore)  
   - Kreator (Thrash Metal)  
-  - Dream Theater (Progressive Metal)  (Também né, cada música tem 1h 😬)
+  - Slayer (Thrash Metal)  
 
 - 🏷️ **Distribuição de estilos musicais (gêneros):**  
   - Heavy Metal (14.32%)  
