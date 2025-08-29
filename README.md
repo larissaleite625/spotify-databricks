@@ -37,7 +37,7 @@ Projeto de engenharia de dados no **Databricks** para coletar, tratar e analisar
 
 ## 🧠 Enriquecimento de Estilos (LLM · DeepSeek)
 
-**Notebook:** [notebooks_querys/Enriquecimento de Estilos.ipynb](notebooks_querys/Enriquecimento%20de%20Estilos.ipynb)
+**Notebook:** [notebooks_querys/EnriquecimentodeEstilos](notebooks_querys/EnriquecimentodeEstilos)
 
 Esse notebook adiciona uma etapa de **enriquecimento de estilos musicais** usando um **LLM (DeepSeek)**.  
 Ele envia informações das faixas (título, artista, álbum) para o modelo, que retorna o estilo, depois gravados como novas colunas no dataset.
