@@ -527,7 +527,7 @@
           },
           "position": {
             "x": 3,
-            "y": 6,
+            "y": 13,
             "width": 3,
             "height": 7
           }
@@ -754,7 +754,7 @@
           },
           "position": {
             "x": 3,
-            "y": 13,
+            "y": 6,
             "width": 3,
             "height": 7
           }
@@ -773,10 +773,6 @@
                       "expression": "`ano_artista`"
                     },
                     {
-                      "name": "year",
-                      "expression": "`year`"
-                    },
-                    {
                       "name": "sum(horas_ouvidas)",
                       "expression": "SUM(`horas_ouvidas`)"
                     }
@@ -790,11 +786,11 @@
               "widgetType": "bar",
               "encodings": {
                 "x": {
-                  "fieldName": "year",
+                  "fieldName": "ano_artista",
                   "scale": {
                     "type": "categorical"
                   },
-                  "displayName": "year"
+                  "displayName": "ano_artista"
                 },
                 "y": {
                   "fieldName": "sum(horas_ouvidas)",
