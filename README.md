@@ -29,7 +29,7 @@ Esse notebook adiciona uma etapa de **enriquecimento de estilos musicais** usand
 Ele envia informações das faixas (título, artista, metadados) para o modelo, que retorna rótulos e descrições de estilos, depois gravados como novas colunas no dataset.
 
 ### Destaques
-- Permite capturar nuances de **gênero** que não aparecem diretamente nos dados brutos. Ainda será preciso validar, mas os resultados até o momento são excelentes, principalmente se considerarmos que os subgeneros do Metal são confusos até para os próprios fãs de Heavy Metal.
+- Permite capturar nuances de **gênero** que não aparecem diretamente nos dados brutos. Ainda será preciso validar, mas os resultados até o momento são excelentes, principalmente se considerarmos que os subgêneros do Metal são confusos até para os próprios fãs de Heavy Metal.
 - Facilita análises segmentadas e visualizações no **Lakeview**.
 - **Custo extremamente baixo**: até o momento foram **~US$ 0,38** para mais de **1,6 milhão de tokens processados**.
 
