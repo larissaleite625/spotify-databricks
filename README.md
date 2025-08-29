@@ -58,9 +58,7 @@ Ele envia informações das faixas (título, artista, álbum) para o modelo, que
    - `Silver Spotify.ipynb`  
    - `Enriquecimento de Estilos.ipynb`  
    - `Criação - Gold.ipynb`  
-3. Abra o dashboard no **Lakeview** e (opcionalmente) exporte:  
-   - **PDF**: atualizar `dash/Spotify 2025-08-29 21_24.pdf`  
-   - **PNGs** das visões: atualizar em `dash/*.png`  
+3. Abra o dashboard no **Lakeview**
 4. **Commit & Push** pelo Databricks Repos.  
 
 ---
